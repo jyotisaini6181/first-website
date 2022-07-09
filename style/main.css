@@ -1,0 +1,37 @@
+/* body {
+  padding: 0;
+  margin: 0;
+} */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 4px #000;
+  padding: 0.2rem;
+}
+
+nav > img {
+  height: 3rem;
+}
+
+nav > input {
+  padding: 0.5rem;
+  width: 30vw;
+  border-radius: 5px;
+  background-color: #2e2e77;
+  border: none;
+  color: aliceblue;
+}
+
+nav > button > img {
+  /* width: 20vw; */
+  height: 3rem;
+  border-radius: 99999px;
+}
+
+nav > button {
+  border-radius: 99999px;
+  padding: 0;
+  border: none;
+}
