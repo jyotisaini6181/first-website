@@ -1,14 +1,19 @@
-/* body {
+body,
+html {
   padding: 0;
   margin: 0;
-} */
+}
+
+* {
+  box-sizing: border-box;
+}
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 0 4px #000;
-  padding: 0.2rem;
+  padding: 0.2rem 8rem;
 }
 
 nav > img {
@@ -34,4 +39,19 @@ nav > button {
   border-radius: 99999px;
   padding: 0;
   border: none;
+}
+
+main {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  gap: 1rem;
+}
+
+section.posts {
+  background-color: red;
+}
+
+section.follow {
+  background-color: cyan;
 }
